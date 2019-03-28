@@ -38,11 +38,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Escrito por <strong>{author}</strong> que vive no Brazil (des)construindo coisas =D.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Você deveria me seguir no Twitter
               </a>
             </p>
           </div>
