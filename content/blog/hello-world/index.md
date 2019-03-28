@@ -14,6 +14,7 @@ Não escrevo mais no medium por alguns motivos:
 * Gosto de ter total controle da aplicação, aqui posso quebrar as coisas com mais empenho.
 * Como também sou dev, porque não programar pra escrever os artigos!?
 * Amor de longa data por JS, então nada melhor que poder utilizá-lo aqui.
+* Meu blog é Open Source [CarneiroJS](https://github.com/Tautorn/CarneiroJS)
 
 Bom, queria só dizer um OI :P
 
