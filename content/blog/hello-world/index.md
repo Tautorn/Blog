@@ -1,22 +1,20 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
-description: This is my first post on my new fake blog! How exciting!
+description: Este é o meu primeiro post no meu novo blog =D!
 ---
 
-This is my first post on my new fake blog! How exciting!
+Criei este blog pra falar de assunstos que gosto. Apesar do nome `CarneiroJS` eu não vou falar só de Javascript. Mas de tecnologia, dia-a-dia, Dota?! =o.
 
-I'm sure I'll write a lot more interesting things in the future.
+Eu tenho alguns artigos no medium, caso queiram me seguir lá também: [brunocarneirofs](https://medium.com/@brunocarneirofs)
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Não escrevo mais no medium por alguns motivos:
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+* Agora existe a versão paga, então isso pode impossibilitar de algumas pessoas lerem as besteiras que escrevo (não que alguém vá dar valor no que falo, mass...)
+* Gosto de ter total controle da aplicação, aqui posso quebrar as coisas com mais empenho.
+* Como também sou dev, porque não programar pra escrever os artigos!?
+* Amor de longa data por JS, então nada melhor que poder utilizá-lo aqui.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+Bom, queria só dizer um OI :P
+
+Espero escrever coisas úteis que vão ter algum valor pra alguém.
