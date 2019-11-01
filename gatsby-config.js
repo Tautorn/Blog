@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Carneiro JS`,
+    title: `Tautorn Tech`,
     author: `Bruno Ferreira Fernandes Carneiro`,
     description: `A starter blog demonstrating what Javascript can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -61,7 +61,7 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#703d3d`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
