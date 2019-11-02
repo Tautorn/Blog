@@ -74,5 +74,19 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              username: 'Tautorn',
+              includeDefaultCss: true
+            }
+          }
+        ]
+      }
+    },
   ],
 }
