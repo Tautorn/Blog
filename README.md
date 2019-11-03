@@ -12,7 +12,7 @@ Vou manter o blog no formato Open Source, então sinta-se a vontade caso queira 
 -----
 
 [en-US]
-I created this blog to talk abount subjects that I like. I'm not just going to talk about Javascript, but from technology, diversous subjects, maybe Dota!? =0
+I created this blog to talk about subjects that I like. I'm not just going to talk about Javascript, but from technology, diversous subjects, maybe Dota!? =0
 
 I've already published some articles in the medium, if you want to follow me there too: [brunocarneirofs](https://medium.com/@brunocarneirofs)
 
