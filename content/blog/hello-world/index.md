@@ -4,7 +4,7 @@ date: "2019-10-31T22:12:03.284Z"
 description: Este é o meu primeiro post no meu novo blog =D!
 ---
 
-Criei este blog para falar de assunstos que eu gosto. Eu não vou falar só de Javascript, mas de tecnologia, dia-a-dia, Dota?! =o.
+Criei este blog para falar de assuntos que eu gosto. Eu não vou falar só de Javascript, mas de tecnologia, dia-a-dia, Dota?! =o.
 
 Eu já publiquei alguns artigos no medium, caso queiram me seguir lá também: [brunocarneirofs](https://medium.com/@brunocarneirofs)
 
