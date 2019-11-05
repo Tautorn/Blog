@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Tautorn Tech`,
-    author: `Bruno Ferreira Fernandes Carneiro`,
-    description: `A starter blog demonstrating what Javascript can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    author: `Bruno Carneiro`,
+    description: `A starter blog demonstrating what Javascript can do and other technologies.`,
+    siteUrl: `http://tautorn.com.br`,
     social: {
       twitter: `brunocarneirofs`,
     },
@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Carneiro JS Blog`,
-        short_name: `GatsbyJS`,
+        name: `Tautorn Tech`,
+        short_name: `Tautorn`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#703d3d`,
+        theme_color: `#3b5998`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
