@@ -1,7 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import 'gitalk/dist/gitalk.css'
-import Gitalk from 'gitalk'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -9,20 +7,6 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
-
-  componentDidMount() {
-    const gitalk = new Gitalk({
-      clientID: '7c759e3eb11b45cb5750',
-      clientSecret: 'd2064038e7bb4d907e1a43b753ef270a16b1ae32',
-      repo: 'https://github.com/Tautorn/Blog',
-      owner: 'tautorn',
-      admin: ['tautorn'],
-      id: this.props.location.pathname,      
-      distractionFreeMode: false
-    })
-
-    gitalk.render('gitalk-container')
-  }
 
   render() {
     const post = this.props.data.markdownRemark
@@ -52,7 +36,6 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <div id="gitalk-container"></div>
         <Bio />
 
         <ul
