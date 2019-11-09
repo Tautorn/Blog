@@ -84,17 +84,10 @@ module.exports = {
               username: 'Tautorn',
               includeDefaultCss: true
             }
-          }
+          },
+          `gatsby-remark-reading-time`
         ]
       }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-reading-time`,
-        ],
-      },
     },
   ],
 }
