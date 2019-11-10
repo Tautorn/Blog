@@ -1,12 +1,8 @@
 ---
 title: Continuous Integration e Delivery com CircleCI 2.0
 date: "2018-05-26T00:00:00.284Z"
-description: Continuous Integration e Delivery com CircleCI 2.0
+description: Realizando uma integração com CircleCI 2.0
 ---
-
-# Continuous Integration e Delivery com CircleCI 2.0
-
-
 
 Faaala jovens dinâmicos!
 

@@ -1,10 +1,8 @@
 ---
 title: Case — Mobx para Redux
 date: "2018-02-21T00:00:00.284Z"
-description: Case — Mobx para Redux
+description: Case de mudança de Mobx para Redux
 ---
-
-# Case — Mobx para Redux
 
 Hoje vou contar um case de uma migração de Mobx para Redux e os motivos que eu e a minha equipe levamos em consideração para tomar esta decisão.
 
@@ -16,7 +14,7 @@ Ah… só adiantando, não existe receita de bolo. Cada projeto possui sua neces
 
 ![](https://cdn-images-1.medium.com/max/2000/1*WS7o6kfbDa5sRjOHNeW6Jg.png)
 
-Trabalho na [Zup](http://www.zup.com.br/) e o nosso produto estava em produção há cerca de 1 ano, e para controlar seus estados, utilizávamos Mobx.
+Em um projeto no qual trabalhei na [Zup](http://www.zup.com.br/) e o nosso produto estava em produção há cerca de 1 ano, e para controlar seus estados, utilizávamos Mobx.
 
 Com Mobx é possível criar uma store e controlar o estado da sua página por meio de @observables , segue abaixo o flow:
 

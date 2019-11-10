@@ -1,10 +1,8 @@
 ---
 title: Universo Styled Components — Parte 1/3
 date: "2017-11-28T00:00:00.284Z"
-description: Universo Styled Components — Parte 1/3
+description: Um pouquinho de styled-components
 ---
-
-# Universo Styled Components — Parte 1/3
 
 Faaala jovens gafanhotos, como comentei em outro artigo, hoje vou me aprofundar um pouco mais nessa maravilhosa lib que é o Styled Components. 
 Vou dividir esta matéria em três artigos, sendo que neste abordarei um pouco sobre as features do styled, no segundo falarei sobre testes (não leve em conta esta ordem na hora de criar uma aplicação) e no último, explicarei sobre boas práticas de desenvolvimento (voltado pra style componentes, é claro).

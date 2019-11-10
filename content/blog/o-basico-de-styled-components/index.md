@@ -1,11 +1,8 @@
 ---
 title: O Básico de Styled Components
 date: "2017-10-11T22:12:03.284Z"
-description: O Básico de Styled Components
+description: Algumas features de styled-components
 ---
-
-
-# O Básico de Styled Components
 
 Criando CSS com JS ò.ó
 

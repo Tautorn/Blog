@@ -1,12 +1,8 @@
 ---
 title: Como NÃO ser um Front-End
 date: "2018-01-27T00:00:00.284Z"
-description: Como NÃO ser um Front-End
+description: Dicas quentes de como NÃO ser um Front-End
 ---
-
-# Como NÃO ser um Front-End
-
-
 
 ### Bom, antes de mais nada, quero deixar claro que este artigo foi criado em tom de sátira, sendo apenas uma reflexão de como muita das vezes agimos como Devs.
 
