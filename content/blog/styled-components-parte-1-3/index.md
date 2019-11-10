@@ -24,15 +24,15 @@ Styled componentes cria marcadores literais para estilizar o seu componente, ist
 À grosso modo, é uma lib que utiliza o poder do CSS com JS para a criação de componentes primitivos em React!
 
 Elementos primitivos:
-> </h1>, </span>, </form>, </input>
+> `</h1>, </span>, </form>, </input>`
 
 Exemplo de componente criado:
 
-<iframe src="https://medium.com/media/fadb826b6d11c1794a20ee560c11138e" frameborder=0></iframe>
+`gist:10fce79c5910f6357f8b7ffcd56bd436`
 
 Depois é só fazer o import e utilizar o component
 
-<Button />, <Icon />, <Modal opened size="500px" />
+`<Button />, <Icon />, <Modal opened size="500px" />`
 
 Simples, não!?
 
@@ -42,7 +42,7 @@ Agora que a “magia” começa… É possível passar todas as props de compone
 
 Segue um exemplo:
 
-<iframe src="https://medium.com/media/be0fc4b58407e5496973c6c6cd2e0af6" frameborder=0></iframe>
+`gist:5aa2d1a2ee96173b15d9a64b0c6a2e6b`
 
 **Qual é a vantagem disso?**
 
@@ -50,7 +50,7 @@ Você simplesmente tem todo o poder do JS nas suas mãos, podendo criar funçõe
 
 Outra coisa muito boa é a diminuição de código, antes era necessário criar inúmeras classes mudando pouca coisa, isso acontecia muito com variações de cor, era terrível. Um exemplo bem simples é a criação de um botão com variações, se o time de desenvolvimento não estiver bem alinhado podemos ter situações bastante peculiares, como abaixo:
 
-<iframe src="https://medium.com/media/2c2128523e2e40cf59c0e75572b303a3" frameborder=0></iframe>
+`gist:7b4d5b5cea4dba5a72268e3946b624a6`
 
 Isso pode ser evitado, basta passar props, realizando todo o controle e criando as variações necessárias. Com isso temos um *bundle* menor e uma lógica clara do que o componente faz.
 
@@ -89,19 +89,19 @@ A criação de tema é uma das coisas que eu acho mais incrível, eu posso passa
 
 Segue abaixo um exemplo que eu tirei do próprio site do [styled componente](https://www.styled-components.com/docs/advanced#theming) onde está sendo criado um botão com as props de tema vindo do ThemeProvider:
 
-<iframe src="https://medium.com/media/71244862dc9a18d58376e0ba7f4efb2a" frameborder=0></iframe>
+`gist:90d13316f06b75d08d68744afd409b95`
 
 Também é possível passar as propriedades de forma contextual, como funções. Estas funções vão receber o tema pai, um outro ThemeProvider, que está acima no contexto da árvore.
 
 O exemplo abaixo renderiza um botão estilizado e um segundo invertendo as cores. A função inverte o tema recebido, criando um novo botão, o exemplo também é do [site](https://www.styled-components.com/docs/advanced#theming) oficial:
 
-<iframe src="https://medium.com/media/f781ec672cb72a0a11eebe4bdfabe3d1" frameborder=0></iframe>
+`gist:6f15f3e4ccb131a6fceaa7750c348a71`
 
 **Tema com HOC**
 
 Se necessário, também é possível utilizar o tema com HOC (higher order component), sem a necessidade do styled, exemplo retirado do [site](https://www.styled-components.com/docs/advanced#theming):
 
-<iframe src="https://medium.com/media/2de722b0b4f4a7ce56cb602c184a3da1" frameborder=0></iframe>
+`gist:0f606e32f201dc0bdfcd8c759554c3b2`
 
 Esse é melhor aproveitado em grandes componentes ;). Realmente repense a necessidade desta abordagem.
 
@@ -111,7 +111,7 @@ O tema também pode ser passado utilizando a prop theme
 
 Isto pode ser feito nos casos em que não existir o ThemeProvider, conforme abaixo:
 
-<iframe src="https://medium.com/media/5a5454f269dcad89c68e9f9f846de218" frameborder=0></iframe>
+`gist:3602654f9411bf9ea5d501f32f9323ed`
 
 ### Helpers
 
@@ -127,7 +127,7 @@ Helpers, como o próprio nome diz, são ajudas para melhorar o desenvolvimento d
 
 Eles são muito importantes e bastante utilizados, como é o caso do css, onde é possível criar um template literal utilizando interpolação, exemplo:
 
-<iframe src="https://medium.com/media/3966486e4e8a0ed1f6d00bf2b28280ea" frameborder=0></iframe>
+`gist:f5a51f3d232dc8f7c6462bebf555ccc2`
 
 Para ver os demais, [clique aqui ;)](https://www.styled-components.com/docs/api#helpers)
 
