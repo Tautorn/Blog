@@ -29,7 +29,7 @@ Com observables podemos manter a seguinte estrutura:
 index.js (view)
 store.js (onde vai toda a lógica e controle da página, mudanças de estado e etc.).
 
-<iframe src="https://medium.com/media/83314e5d6904fa88730c74d8dad9ddeb" frameborder=0></iframe>
+`gist:95746388033e5a658768d6648bfeb087`
 
 Veja que é bem simples: contendo TodoView com um HOC observer controlando a página TodoListView , para receber as props da Store (TodoView) basta inserir um decorator observer na view. Para que a view receba a store é só passar como propriedade ( todoList={store} ), lindo!
 
