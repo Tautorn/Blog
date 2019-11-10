@@ -77,7 +77,7 @@ Abaixo uma primeira versão do projeto onde informei um job chamado build utiliz
 
 Nos jobs, eu posso descrever meus steps, no exemplo abaixo é feito um checkout no projeto, download e cacheamento das dependências e execução de testes.
 
-<iframe src="https://medium.com/media/986981fa7d262bdb16a98b99cbf5d93a" frameborder=0></iframe>
+`gist:8d84fccb146185204452689d09abbedb`
 
 Mas somente o pipeline acima não é o suficiente para *buildar *e subir o projeto em produção, sem contar que não estou *escutando* minhas branchs que esse job seja executado, é aí que entram Workflows.
 
@@ -90,7 +90,7 @@ Sem contar que é possível definir as branchs que vão triggar algum job, aprov
 
 Agora vamos adicionar o workflow no final do arquivo config.yml
 
-<iframe src="https://medium.com/media/bef59be627b6ca8ab25f4d388686f632" frameborder=0></iframe>
+`gist:4750b74ac8bfa1d3b0bf2d451988c127`
 
 Esse workflow executa dois jobs, build e test, com isso vamos ter o seguinte workflow:
 
@@ -102,7 +102,7 @@ Sem contar que o Workflow está triggando todas as branchs, ou seja, um commit e
 
 Para melhorar esse flow vou adicionar algumas etapas, separar o test do build, uma aprovação e filtros por branchs, em um deploy para dois ambientes, (development e produção) ficando assim:
 
-<iframe src="https://medium.com/media/fddce197f530e7564626b6416b848dea" frameborder=0></iframe>
+`gist:e12dff4ca95188b19716c36811636ea0`
 
 Reparem que na linha 21 e 29 eu adicionei dois passos que serão executados em branchs separadas, um deploy para o ambiente de development e outra para o ambiente de produção.
 
