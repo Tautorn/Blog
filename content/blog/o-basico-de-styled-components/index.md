@@ -1,9 +1,15 @@
+---
+title: O Básico de Styled Components
+date: "2017-10-11T22:12:03.284Z"
+description: O Básico de Styled Components
+---
+
 
 # O Básico de Styled Components
 
 Criando CSS com JS ò.ó
 
-Bom, este é o meu primeiro artigo e estou muito empolgado, quem me incentivou a criá-lo foi o meu amigo [Isac](undefined), espero que gostem =D
+Bom, este é o meu primeiro artigo e estou muito empolgado, quem me incentivou a criá-lo foi o meu amigo [Isac](https://medium.com/@isacjunior), espero que gostem =D
 
 Algo que eu gosto bastante é de CSS, me divirto muito, mas nem tudo são flores… Há momentos em que tudo parece desabar, corrige de um lado, estraga do outro.
 
