@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date} 🎮 <i>Tempo de leitura:</i> {readingTime}
+          {post.frontmatter.date} <span role="img" aria-label="joystick">🎮</span> <i>Tempo de leitura:</i> {readingTime}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr

@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import NewsLetter from "../components/NewsLetter"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="All posts"
-          keywords={[`blog`, `tautorn`, `tecnologia`, `javascript`, `ecmascript`, `reactjs`]}
+          keywords={[`blog`, `tautorn`, `tecnologia`, `javascript`, `ecmascript`, `reactjs`, `tech`]}
           />
         <Bio />
         {posts.map(({ node }) => {
@@ -42,6 +43,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <NewsLetter />
       </Layout>
     )
   }

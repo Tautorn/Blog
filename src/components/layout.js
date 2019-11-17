@@ -26,7 +26,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title} 🐑
+            {title} <span role="img" aria-label="sheep">🐑</span>
           </Link>
         </h1>
       )
