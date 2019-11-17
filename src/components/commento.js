@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { memo, useEffect } from 'react'
 
 const insertScript = (src, id, parentElement) => {
   const script = window.document.createElement('script')
@@ -35,4 +35,4 @@ const Commento = ({ id }) => {
   return <div id={`commento`} />
 }
 
-export default Commento
+export default memo(Commento)

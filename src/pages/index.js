@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date} 🎮 Tempo de leitura {readingTime}</small>
+              <small>{node.frontmatter.date} <span role="img" aria-label="joystick">🎮</span> Tempo de leitura {readingTime}</small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

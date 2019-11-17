@@ -89,5 +89,12 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://tautorn.us5.list-manage.com/subscribe/post?u=291f24931c74780a04fd79c5f&amp;id=8b8adacbd9'
+      }
+    },
+    `gatsby-plugin-styled-components`
   ],
 }
