@@ -187,6 +187,53 @@ Salve os arquivos e veja o resultado na sua página, ficou lindo, não!? =D
 
 > O conteúdo está no meu github [using-css-with-reactjs](https://github.com/Tautorn/using-css-with-reactjs)
 
+Caso queira utilizar a mesma fonte que usei, basta inserí-la no **head** do `public/index.html`, que fica na raíz do projeto.
+
+```html
+<link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-book.woff2">
+<link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-black.woff2">
+<link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-bold.woff2">
+```
+
+> index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-book.woff2">
+    <link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-black.woff2">
+    <link rel="preload" as="font" crossorigin="" type="font/woff2" href="https://sp-bootstrap.global.ssl.fastly.net/8.2.4/fonts/circular-bold.woff2">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+```
+
+E depois adicionar o **font-family** no arquivo `src/style.css`
+
+```css
+html, body {
+  height: 100%;
+  font-family: Circular,Helvetica,Arial,sans-serif;
+}
+```
+
+## CSS via props
+
 
 É bem simples a utilização de CSS com React, mas essa não é a única maneira. É muito comum classes dependerem de `props` ou `state` da página.
 Exemplo:
