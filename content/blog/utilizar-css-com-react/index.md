@@ -125,7 +125,7 @@ Tá... blz, e agora, como aplicar o meu maravilhoso CSS com React?
 
 Vamos criar as boas e "velhas" classes!
 
-<img src="./explosion-mind.png" />
+![explosion mind](./explosion-mind.png)
 
 Só que o React utiliza a nomenclatura `className` para utilizar uma classe em um componente. Exemplo:
 
