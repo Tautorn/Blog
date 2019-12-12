@@ -10,7 +10,9 @@ Bom, neste post vou falar um pouco sobre como utilizar CSS com React.
 
 Neste exemplo, vou utilizar a lib [create-react-app](https://github.com/facebook/create-react-app) para construir a base inicial do projeto.
 
-Obs.: Todo o projeto você pode conferir no meu [github](https://github.com/Tautorn/using-css-with-reactjs)
+Obs.: Todo o projeto você pode conferir no meu github [github](https://github.com/Tautorn/using-css-with-reactjs)
+
+Para baixar a logo utilizada neste artigo: [logo](https://res.cloudinary.com/tautorn-com-br/image/upload/v1576154436/utilizar-css-com-react/assets/logo_yynel6.png)
 
 Para começar, digite os comandos abaixo:
 
@@ -183,7 +185,7 @@ Salve os arquivos e veja o resultado na sua página, ficou lindo, não!? =D
 
 <span style="display:block;text-align:center">![login](https://res.cloudinary.com/tautorn-com-br/image/upload/v1576148723/utilizar-css-com-react/login_gn67os.png)</span>
 
-> O conteúdo está no meu [using-css-with-reactjs](https://github.com/Tautorn/using-css-with-reactjs)
+> O conteúdo está no meu github [using-css-with-reactjs](https://github.com/Tautorn/using-css-with-reactjs)
 
 
 É bem simples a utilização de CSS com React, mas essa não é a única maneira. É muito comum classes dependerem de `props` ou `state` da página.
@@ -201,9 +203,9 @@ render() {
 Referência: [react](https://pt-br.reactjs.org/docs/faq-styling.html)
 
 No exemplo acima a `classe` atribuída muda de acordo com o estado do menu, podendo estar ativo `isActive` ou não. 
-Isso é muito utilizado para fazer alterações nos elementos, lembrando que o React funciona de forma **declarativa**.
+Isso é muito utilizado para fazer alterações nos elementos, lembrando que o React funciona de forma [**declarativa**](https://dev.to/itsjzt/declarative-programming--react-3bh2).
 
-## Contatenação de classes
+## Concatenação de classes
 Caso precise adicionar uma classe que é alterada (igual foi feito com o `menu-active`) a um elemento que já possui estilo é possível fazer assim:
 ```jsx
 <span className={`menu ${className}`}>
@@ -224,7 +226,7 @@ Caso queira fazer um teste com CRA: [usando-sass-com-create-react-app-sem-ject](
 ## Styled-components
 Existe outra maneira de criar CSS, que é com bibliotecas que permitem usar código CSS para estilizar seus components, como é o caso do [styled-components](https://www.styled-components.com/)
 
-Essa é a maneira que mais gosto de utilizar css para estilizar meus componentes. A escrita do CSS continua a mesma, inclusive é possível utilizar SASS \o/, já vem no "pacote" yuhuuuuu.
+Essa é a maneira que mais gosto de utilizar css para estilizar meus componentes. A escrita do CSS continua a mesma, inclusive é possível utilizar SASS \o/, já vem no "pacote", yuhuuuuu.
 
 Escrevi dois artigos a respeito de styled-components:
 
@@ -234,10 +236,10 @@ Escrevi dois artigos a respeito de styled-components:
 
 
 Bom, por hoje é isso. Espero que este artigo possa lhe ajudar.
-Cadastre na minha news letter para receber conteúdo atualizado.
-Também deixe seu comentário com sua opnião para que eu possa sempre melhorar o conteúdo.
+Cadastre-se na minha Newsletter para receber conteúdo atualizado.
+Também deixe seu comentário para que eu possa sempre melhorar o conteúdo.
 
-E que ta melhorar o formulário? Adicionar validações, enviar para api do Spotify, tem muita coisa para ser feitao ;D
+E que tal melhorar o formulário? Adicionar validações, enviar para api do Spotify, tem muita coisa para ser feita ;D
 
 Abraço e até mais!
 
