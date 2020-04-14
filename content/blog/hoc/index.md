@@ -123,7 +123,7 @@ A página inicial que contém todos os HOCs ficou da seguinte forma:
 
 `gist:ea3dda4f16cdd310962c9ae6d9a359c5`
 
-Para que a nossa fábrica de cervejas funcione, eu fiz a criação de 3 tipos de cervejas, Ale, Wise e Lager. Elas são os containers (linhas 2, 3 e 5 do exemplo acima).
+Para que a nossa fábrica de cervejas funcione, eu fiz a criação de 3 tipos de cervejas, Ale, Wise e Lager. Elas são os containers (linhas 2, 3 e 4 do exemplo acima).
 
 
 > Ignorem o css inline, fiz dessa forma porque não estou utilizando um pré-processador de css e também não quis criar uma folha de estilo para este caso, tendo em vista que é um exemplo bem rápido e o objetivo final é demonstrar a funcionalidade dos HOCs.
