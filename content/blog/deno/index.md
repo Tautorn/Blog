@@ -20,7 +20,7 @@ OOUuuu seja, um negocinho pra rodar os trem que escrevemos :P
 
 Deno é do mesmo criador do NodeJS [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl).
 O projeto pretende corrigir todas os problemas de design que existem no NodeJS, descrito na famosa talk realizada pelo Ryan.
-["10 Things I Regret About Node.JS"] (https://www.youtube.com/watch?v=M3BM9TB-8yA) - Ryan Dahl
+["10 Things I Regret About Node.JS"](https://www.youtube.com/watch?v=M3BM9TB-8yA) - Ryan Dahl
 
 
 **Os 10 problemas são basicamente isso aqui:**
