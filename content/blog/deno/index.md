@@ -1,5 +1,5 @@
 ---
-title: NodeJS está morto, longa vida ao Deno!
+title: Node.JS está "morto", longa vida ao Deno!
 date: "2020-05-22T00:00:00.284Z"
 description: A nova runtime do mesmo criador do NodeJS!
 ---
@@ -132,9 +132,11 @@ Acredito que teremos em breve mais uma opção para quando formos criar uma nova
 
 Deno aparenta ser uma ferramenta incrível, trazendo features que fazem total sentido, como o permissionamento e aumento da segurança do código, além de outras.
 
-A comunidade está bastante empolgada com o Deno (eu também! hahaha). Principalmente por trazer features incríveis e por ser mais uma opção para construção de aplicações. 
+A comunidade está bastante empolgada com o Deno (eu também! hahaha).
 
-Já devo utilizar Deno em produção? Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e não há muitos cases. Ao contrário de NodeJS, por exemplo, que já tem 1 década!!!
+Já devo utilizar Deno em produção? Não aconselho. Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e não há muitos cases. Ao contrário de NodeJS que já tem 1 década e milhões de projetos.
+
+De todo jeito, vamos aguardar os próximos episódios dessa ferrramenta.
 
 Por hoje é isso :P
 Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/)
