@@ -42,7 +42,7 @@ class BlogPostTemplate extends React.Component {
 
         <NewsLetter />
         
-        <Commento id={post.id} />
+        {/* <Commento id={post.id} /> */}
 
         <Bio />
 
