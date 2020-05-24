@@ -7,6 +7,8 @@ description: A nova runtime do mesmo criador do NodeJS!
 ![Deno](https://i.ibb.co/rmV2TZ0/1-j-PBtd4-GQBj-J0-Kcy-Fyqcp-Bg.png)
 ### Hoje vou falar da nova delícia que está surgindo, o Deno!! console.log("Welcome to Deno 🦕");
 
+**Bom, antes de começar, o título pode causar estranheza. Mas ao longo do artigo explico e deixo a minha opnião a respeito.**
+
 
 #### Deno é a nova runtime segura para Javascript e TypeScript <3
 
