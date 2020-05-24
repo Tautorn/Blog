@@ -88,12 +88,12 @@ $ deno run --allow-net fetch.ts
 * Além de outras coisas, Deno é um grande substituidor para utilitários de scripts que muita das vezes foram escritos com `bash` ou `python`.
 
 ### Pontos principais
-* Uńico executável `deno run goPowerRanges.ts`
+* Uńico executável `deno run goPowerRangers.ts`
 * Compatibilidade com o browser, o subconjunto de programas dos quais são completamente escritos em JS e não utilizam o namespace global Deno (ou feature teste para isso), também devem poder estar disponível para ser executado em um browser moderno sem alterações.
 * Providencia por padrão um kit de ferramentas para teste unitário, formatação de código e lint para melhorar a experiência do desenvolvedor.
 
 >**Não perdeu conceitos utilizados no V8
-Pode ser disponibilizar eficientemente um servidor HTTP.**
+Pode disponibilizar eficientemente um servidor HTTP.**
 
 
 ### Comparações com NodeJS
@@ -104,7 +104,7 @@ Pode ser disponibilizar eficientemente um servidor HTTP.**
 
 * Seus módulos fazerem referência a URLs ou paths de arquivos
 
-* Todas as ações assícronas do Deno retornam uma promise.  Portando, Deno oferece diferentes APIs do que o Node.
+* Todas as ações assíncronas do Deno retornam uma promise.  Portando, Deno oferece diferentes APIs do que o Node.
 
 * Deno exige permissões explícitas para acessar arquivos, network e ambientes.
 
@@ -134,10 +134,10 @@ Deno aparenta ser uma ferramenta incrível, trazendo features que fazem total se
 
 A comunidade está bastante empolgada com o Deno (eu também! hahaha). Principalmente por trazer features incríveis e por ser mais uma opção para construção de aplicações. 
 
-Já devo utilizar Deno em produção? Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e é bem novo. Ao contrário de NodeJS, por exemplo, que já tem 1 década!!!
+Já devo utilizar Deno em produção? Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e não muitos cases. Ao contrário de NodeJS, por exemplo, que já tem 1 década!!!
 
 Por hoje é isso :P
-Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também [Tautorn Tech](https://tautorn.com.br/)
+Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/)
 
 
 ### Referências
