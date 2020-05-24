@@ -127,14 +127,14 @@ Módulos/arquivos carregados de URLs remotas destinam-se a serem imutáveis e ar
 
 ### Conclusão
 
-Deno vai matar o NodeJS? Acredito que não, Deno ainda é muuuito novo e Node já é uma ferramenta estável e consolidada pelo mercado. 
+Deno vai matar o NodeJS? Acredito que não, Deno ainda é muuuito novo e Node já é uma ferramenta estável e consolidada pela comunidade e o mercado.
 Acredito que teremos em breve mais uma opção para quando formos criar uma nova aplicação.
 
 Deno aparenta ser uma ferramenta incrível, trazendo features que fazem total sentido, como o permissionamento e aumento da segurança do código, além de outras.
 
 A comunidade está bastante empolgada com o Deno (eu também! hahaha). Principalmente por trazer features incríveis e por ser mais uma opção para construção de aplicações. 
 
-Já devo utilizar Deno em produção? Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e não muitos cases. Ao contrário de NodeJS, por exemplo, que já tem 1 década!!!
+Já devo utilizar Deno em produção? Apesar de já ter saído a v1.0 Deno é muito novo, está sendo desenvolvido desde 2018 e não há muitos cases. Ao contrário de NodeJS, por exemplo, que já tem 1 década!!!
 
 Por hoje é isso :P
 Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/)
