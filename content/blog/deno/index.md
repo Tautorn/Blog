@@ -23,7 +23,7 @@ O projeto pretende corrigir todas os problemas de design que existem no NodeJS, 
 ["10 Things I Regret About Node.JS"](https://www.youtube.com/watch?v=M3BM9TB-8yA) - Ryan Dahl
 
 
-**Os 10 problemas são basicamente isso aqui:**
+**Os 10 problemas são basicamente estes aqui:**
 
  - Promises
 	* Ele adicionou promises ao NodeJS em Junho de 2009, mas removeu em Fevereiro de 2010;
@@ -39,7 +39,7 @@ O projeto pretende corrigir todas os problemas de design que existem no NodeJS, 
 	* Uma adaptação Python do JSON. Node possui complexos nós desnecessários em torno de si.
 
 - package.json
-	* Incluir NPM no Node torna o NPM um padrão de distribuição. 
+	* Incluir NPM no Node torna o NPM um padrão de distribuição;
 	* Centralizado, controle privado e repositório para módulos;
 	* Incluir informações desnecessárias;
 	* Abstração desnecessária do conceito de módulos como um diretório de arquivos. Não existe isso na Web.
@@ -49,13 +49,13 @@ O projeto pretende corrigir todas os problemas de design que existem no NodeJS, 
 	* Não é um formato para navegador.
 
 - Require sem extensão
-	* Desnecessariamente menos implícito;
+	* Desnecessariamente implícito;
 	* Não é como o browser funciona;
-	* O carregamento dos módulos precisa "advinhar" o que fazer.
+	* O carregamento dos módulos precisa "adivinhar" o que fazer.
 
 - index.js
-	* Sistema de carregamento desnecessariamente complicado
-	* Especialmente desnecessário depois que obrigatoriamente suportado pelo package.json
+	* Sistema de carregamento desnecessariamente complicado;
+	* Especialmente desnecessário depois que obrigatoriamente suportado pelo package.json.
 	
 
 ### Agora vou falar da nova <strike>Brastemp</strike> Deno.
@@ -69,52 +69,51 @@ O projeto pretende corrigir todas os problemas de design que existem no NodeJS, 
 $ deno run --allow-read=/etc https://deno.land/std/examples/cat.ts /etc/passwd
 ```
 * Suporte ao TypeScript por padrão. Isso cria um código mais seguro.
-* Um único executável
+* Um único executável:
 ```shell
 $ deno run --allow-net fetch.ts
 ```
-* Possui inspeçor de dependências `deno info` e formatador de código `deno fmt`
-* Possui módulos por padrão (não possui um “npm”). Tudo fica na `Deno Land` Yuhuuuuuu
-* Scripts podem ser “bundled” em um arquivo único de JS
-* Suporte a top level com await (Não é preciso declarar async/await)
-* Compatibilidade do browser (pode acessar o `window` e não `global`)
+* Possui inspeçor de dependências `deno info` e formatador de código `deno fmt`;
+* Possui módulos por padrão (não possui um “npm”). Tudo fica na `Deno Land` Yuhuuuuuu;
+* Scripts podem ser empacotados(“bundled”) em um arquivo único de JS;
+* Suporte a top level com await (Não é preciso declarar async/await);
+* Compatibilidade do browser (pode acessar o `window` e não `global`).
 
 ### Filosofia
-* O Objetivo do Deno é criar scripts produtivos e seguros para ambientes com programação moderna.
+* O Objetivo do Deno é criar scripts produtivos e seguros para ambientes com programação moderna;
 
-* Deno vai sempre ser distrubuído utilizando um único executável.
+* Deno vai sempre ser distrubuído utilizando um único executável;
 
-* Deno recebe a URL dos programas, para que ele possa ser executádo. Dessa forma ele não precisa ser executado  com “15 mega de arquivos zipados”
+* Deno recebe a URL dos programas, para que ele possa ser executado. Dessa forma ele não precisa ser executado  com “15 megas de arquivos zipados”;
 
-* Ele usa por padrão browser-compatible protocol para carregar seus módulos: URLs.
+* Ele usa por padrão browser-compatible protocol para carregar seus módulos: URLs;
 
 * Além de outras coisas, Deno é um grande substituidor para utilitários de scripts que muita das vezes foram escritos com `bash` ou `python`.
 
 ### Pontos principais
-* Uńico executável `deno run goPowerRangers.ts`
-* Compatibilidade com o browser, o subconjunto de programas dos quais são completamente escritos em JS e não utilizam o namespace global Deno (ou feature teste para isso), também devem poder estar disponível para ser executado em um browser moderno sem alterações.
+* Um único executável `deno run goPowerRangers.ts`;
+* Compatibilidade com o browser, o subconjunto de programas dos quais são completamente escritos em JS e não utilizam o namespace global Deno (ou feature teste para isso), também é possível executá-lo em um browser moderno sem alterações;
 * Providencia por padrão um kit de ferramentas para teste unitário, formatação de código e lint para melhorar a experiência do desenvolvedor.
 
->**Não perdeu conceitos utilizados no V8
-Pode disponibilizar eficientemente um servidor HTTP.**
+>**Não perdeu conceitos utilizados no V8, pode disponibilizar eficientemente um servidor HTTP.**
 
 
 ### Comparações com NodeJS
 
 ![UHHH Deno](https://i.ibb.co/znrfPZg/bitmap.png)
 
-* Deno não utiliza NPM (adios node_modules!)
+* Deno não utiliza NPM (adios node_modules!);
 
-* Seus módulos fazerem referência a URLs ou paths de arquivos
+* Seus módulos fazerem referência a URLs ou paths de arquivos;
 
-* Todas as ações assíncronas do Deno retornam uma promise.  Portando, Deno oferece diferentes APIs do que o Node.
+* Todas as ações assíncronas do Deno retornam uma promise.  Portando, Deno oferece diferentes APIs do que o Node;
 
-* Deno exige permissões explícitas para acessar arquivos, network e ambientes.
+* Deno exige permissões explícitas para acessar arquivos, network e ambientes;
 
 * Deno sempre “morre” em erros inexplorados (não tratados).
 
 
-> Utiliza ES Modules e não suporta “require”. Pacotes de terceiros são importados via URLs. 
+> Deno utiliza ES Modules e não suporta “require”. Pacotes de terceiros são importados via URLs. 
 
 **Exemplo:**
 ```ts
@@ -141,8 +140,9 @@ Já devo utilizar Deno em produção? Não aconselho. Apesar de já ter saído a
 
 De todo jeito, vamos aguardar os próximos episódios dessa ferrramenta.
 
-Por hoje é isso :P
-Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/)
+Por hoje é isso :P.
+
+Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/).
 
 
 ### Referências
