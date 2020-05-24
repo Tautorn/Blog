@@ -26,7 +26,8 @@ O projeto pretende corrigir todas os problemas de design que existem no NodeJS, 
 **Os 10 problemas são basicamente isso aqui:**
 
  - Promises
-	* Ele adicionou promises ao NodeJS em Junho de 2009, mas removeu em Fevereiro de 2010, pelo mínimo;
+	* Ele adicionou promises ao NodeJS em Junho de 2009, mas removeu em Fevereiro de 2010;
+	* Promises são uma abstração para async/await;
 	* É possível que a unificação do uso de `promise` tenha acelerado a entrada da padronização de async/await.
 
 - Segurança
