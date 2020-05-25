@@ -1,5 +1,5 @@
 ---
-title: Node.JS está "morto", longa vida ao Deno!
+title: Deno, a nova  runtime para JavaScript e TypeScript. Do mesmo criador do NodeJS!
 date: "2020-05-22T00:00:00.284Z"
 description: A nova runtime do mesmo criador do NodeJS!
 ---
