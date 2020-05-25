@@ -5,7 +5,7 @@ module.exports = {
     description: `A starter blog demonstrating what Javascript can do and other technologies.`,
     siteUrl: `http://tautorn.com.br`,
     social: {
-      twitter: `brunocarneirofs`,
+      twitter: `tautorn`,
     },
   },
   plugins: [
