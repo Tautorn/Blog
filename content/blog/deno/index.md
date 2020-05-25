@@ -142,7 +142,7 @@ De todo jeito, vamos aguardar os próximos episódios dessa ferrramenta.
 
 Por hoje é isso :P.
 
-Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://tautorn.com.br/).
+Vou escrever mais a respeito e também postar vídeos no meu canal, onde apresento outras tecnologias também, me segue lá: [Tautorn Tech](https://www.youtube.com/tautorn-tech).
 
 
 ### Referências
