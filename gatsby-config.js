@@ -39,7 +39,44 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              username: 'Tautorn',
+              includeDefaultCss: true
+            }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false,
+              languageExtensions: [
+                {
+                  language: "superscript",
+                  extend: "javascript",
+                  definition: {
+                    superscript_types: /(SuperType)/,
+                  },
+                  insertBefore: {
+                    function: {
+                      superscript_keywords: /(superif|superelse)/,
+                    },
+                  },
+                },
+              ],
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
+              escapeEntities: {},
+            },
+          },
+          `gatsby-remark-reading-time`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -73,21 +110,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-embed-gist",
-            options: {
-              username: 'Tautorn',
-              includeDefaultCss: true
-            }
-          },
-          `gatsby-remark-reading-time`
-        ]
-      }
     },
     {
       resolve: 'gatsby-plugin-mailchimp',

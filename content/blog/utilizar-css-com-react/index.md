@@ -65,7 +65,7 @@ my-app
 
 > App.js
 
-```
+```jsx
 import React from 'react';
 
 function App() {
@@ -82,7 +82,7 @@ export default App;
 
 > index.js
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
