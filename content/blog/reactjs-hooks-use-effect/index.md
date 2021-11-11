@@ -310,7 +310,10 @@ Por hoje é isso que desejo apresentar sobre o `useEffect`. É claro que existe 
 Até mais :)
 
 
-***Em breve vou atualizar esta página com mais dois exemplos `useEffect` e `useContext`***
+Para saber sobre o [useState](https://blog.tautorn.com.br/reactjs-hooks)
+
+***Em breve vou atualizar esta página com exemplos do `useContext`***
+
 
 Referências:
 
