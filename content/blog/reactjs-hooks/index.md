@@ -160,7 +160,9 @@ Não há uma regra, mas sempre analise o que você está desenvolvendo :)
 
 Bom, este é um pequeno exemplo de aplicação do Hook `useState`, abaixo estão algumas referências onde podem ser encontrados exemplos com os outros Hooks.
 
-***Em breve vou atualizar esta página com mais dois exemplos `useEffect` e `useContext`***
+Para saber sobre o [useEffect](https://blog.tautorn.com.br/reactjs-hooks-use-effect)
+
+***Em breve vou atualizar esta página com exemplos do `useContext`***
 
 Referências:
 
