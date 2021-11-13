@@ -13,8 +13,12 @@ Olá jovens gafanhotos, hoje vou falar um pouco sobre os HOOKs, como funcionam e
 </br>
 </br>
 
+<div style="display: flex">
+<img src="../../assets/document-alert.png" height="25px" />&nbsp;Conheça também como funciona o hook &nbsp; <a href="https://blog.tautorn.com.br/reactjs-hooks/" target="_blank"> useEffect </a>
+</div>
+<br />
 
-A funcionalidade de Hooks foi adiciona no React na versão 16.8, onde criou a possibilidade de utilizar o estado da aplicação e outras features do React sem a necessidade de criar um escopo de *classe*. 
+A funcionalidade de Hooks foi adiciona no React na versão 16.8, onde foi criado a possibilidade de utilizar o estado da aplicação e outras features do React sem a necessidade de criar um escopo de *classe*. 
 Um breve exemplo de componente com escopo de classe:
 
 
@@ -29,9 +33,9 @@ Bem simples, não é mesmo?!
 
 É claro que o componente apresentado acima é algo extremamente simples e não reflete muito o que temos no nosso dia-a-dia. 
 
-Mas o que quero apresentar é que o ciclo de vida e as funcionalidades do React continuam as mesmas, o seu código JSX vai sofrer poucas alterações, é muito fácil converter um componente que está escrito em classe para uma abordagem com hooks e vice-versa (salve algumas exções).
+Mas o que quero apresentar é que o ciclo de vida e as funcionalidades do React continuam as mesmas, o seu código JSX vai sofrer poucas alterações, é muito fácil converter um componente que está escrito em classe para uma abordagem com Hooks e vice-versa (salve algumas exceções).
  
-Lembre-se, hooks não vão substituir o que você já conhece a respeito do React, é apenas uma ferramenta a mais.
+Lembre-se, os Hooks não vão substituir o que você já conhece a respeito do React, é apenas uma ferramenta a mais.
 
 A motivação da criação dos Hooks pelo time de engenheiros do Facebook foram as seguintes:
 * É difícil a reutilização da lógica entre componentes;
@@ -62,7 +66,7 @@ Imagine que você precise adicionar um state (estado) na sua página, como grava
 Abaixo vou aprensentar exemplos de como funcionam o `useState`. `useEffect` e o `useContext` que são os Hooks Básicos e por sua vez mais utilizados.
 
 ## useState
-Com o use state é possível criar um estado no componente para que sejam aplicadas alterações no componente toda vez que o estado é alterado (ciclo de vida do React), conforme abaixo:
+Com o useState é possível criar um estado no componente para que sejam aplicadas alterações no mesmo toda vez que o estado é alterado (ciclo de vida do React), conforme abaixo:
 
 ```jsx
 import { useState } from 'react'
@@ -100,7 +104,7 @@ function Gallery() {
 <small>Código completo para execução: [Code Sandbox](https://codesandbox.io/s/reacthook-usestate-example-9n1pj?file=/src/App.js)
 </small>
 
-O `useState` possui o seguinte formato:
+O **useState** possui o seguinte formato:
 ```js
 const [picture, setPicture] = useState('250')
 ```
@@ -138,7 +142,7 @@ const handleBilling = (values) => {
 No exemplo acima 4 renderizações ocorrem na página, ao invés disso podemos escrever o resultado do código acima desta maneira:
 
 ```jsx
-const [state, setState] = useState() // Pode ser qualquer nome, mas chamei de state por ficar mais claro que é o estado do component. É uma mera semelhança ao nome utilizado quando utilizamos classe com React
+const [state, setState] = useState() // Pode ser qualquer nome, mas chamei de state por ficar mais claro que é o estado do componente. É uma mera semelhança ao nome utilizado quando utilizamos classe com React
 
 const handleBilling = (values) => {
   // utilizando apenas um Hook e realizando uma única renderização na página
