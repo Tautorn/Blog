@@ -66,7 +66,7 @@ Imagine que você precise adicionar um state (estado) na sua página, como grava
 Abaixo vou aprensentar exemplos de como funcionam o `useState`. `useEffect` e o `useContext` que são os Hooks Básicos e por sua vez mais utilizados.
 
 ## useState
-Com o use state é possível criar um estado no componente para que sejam aplicadas alterações no componente toda vez que o estado é alterado (ciclo de vida do React), conforme abaixo:
+Com o useState é possível criar um estado no componente para que sejam aplicadas alterações no mesmo toda vez que o estado é alterado (ciclo de vida do React), conforme abaixo:
 
 ```jsx
 import { useState } from 'react'
@@ -104,7 +104,7 @@ function Gallery() {
 <small>Código completo para execução: [Code Sandbox](https://codesandbox.io/s/reacthook-usestate-example-9n1pj?file=/src/App.js)
 </small>
 
-O `useState` possui o seguinte formato:
+O **useState** possui o seguinte formato:
 ```js
 const [picture, setPicture] = useState('250')
 ```
@@ -142,7 +142,7 @@ const handleBilling = (values) => {
 No exemplo acima 4 renderizações ocorrem na página, ao invés disso podemos escrever o resultado do código acima desta maneira:
 
 ```jsx
-const [state, setState] = useState() // Pode ser qualquer nome, mas chamei de state por ficar mais claro que é o estado do component. É uma mera semelhança ao nome utilizado quando utilizamos classe com React
+const [state, setState] = useState() // Pode ser qualquer nome, mas chamei de state por ficar mais claro que é o estado do componente. É uma mera semelhança ao nome utilizado quando utilizamos classe com React
 
 const handleBilling = (values) => {
   // utilizando apenas um Hook e realizando uma única renderização na página
