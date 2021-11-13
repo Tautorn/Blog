@@ -13,8 +13,12 @@ Olá jovens gafanhotos, hoje vou falar um pouco sobre os HOOKs, como funcionam e
 </br>
 </br>
 
+<div style="display: flex">
+<img src="../../assets/document-alert.png" height="25px" />&nbsp;Conheça também como funciona o hook &nbsp; <a href="https://blog.tautorn.com.br/reactjs-hooks/" target="_blank"> useEffect </a>
+</div>
+<br />
 
-A funcionalidade de Hooks foi adiciona no React na versão 16.8, onde criou a possibilidade de utilizar o estado da aplicação e outras features do React sem a necessidade de criar um escopo de *classe*. 
+A funcionalidade de Hooks foi adiciona no React na versão 16.8, onde foi criado a possibilidade de utilizar o estado da aplicação e outras features do React sem a necessidade de criar um escopo de *classe*. 
 Um breve exemplo de componente com escopo de classe:
 
 
@@ -29,9 +33,9 @@ Bem simples, não é mesmo?!
 
 É claro que o componente apresentado acima é algo extremamente simples e não reflete muito o que temos no nosso dia-a-dia. 
 
-Mas o que quero apresentar é que o ciclo de vida e as funcionalidades do React continuam as mesmas, o seu código JSX vai sofrer poucas alterações, é muito fácil converter um componente que está escrito em classe para uma abordagem com hooks e vice-versa (salve algumas exções).
+Mas o que quero apresentar é que o ciclo de vida e as funcionalidades do React continuam as mesmas, o seu código JSX vai sofrer poucas alterações, é muito fácil converter um componente que está escrito em classe para uma abordagem com Hooks e vice-versa (salve algumas exceções).
  
-Lembre-se, hooks não vão substituir o que você já conhece a respeito do React, é apenas uma ferramenta a mais.
+Lembre-se, os Hooks não vão substituir o que você já conhece a respeito do React, é apenas uma ferramenta a mais.
 
 A motivação da criação dos Hooks pelo time de engenheiros do Facebook foram as seguintes:
 * É difícil a reutilização da lógica entre componentes;

@@ -214,7 +214,7 @@ A linha **11** à **19** eu criei um `timer` para simular a atualização da hor
 Aqui vemos a etapa de `atualização` da aplicação.
 
 
-Por fim, executei a etapa de `desmontagem` (componentWillUnmount) para que assim que o componente não existir mais o `setInterval` seja interrompido. Isto foi possível graças ao `return` da linha **21** ((efeito de limpeza).
+Por fim, executei a etapa de `desmontagem` (componentWillUnmount) para que assim que o componente não existir mais o `setInterval` seja interrompido. Isto foi possível graças ao `return` da linha **21** (efeito de limpeza).
 
 Simples, não?! Com isso é possível passar por todas etapas do ciclo de vida combinando alguns `Hooks` do React.
 Existem vários outros mas estes não irei apresentar agora.
